@@ -1,7 +1,7 @@
 // server/api/index.js
 import express from "express";
 import cors from "cors";
-import quizRoutes from "../src/api/routes/quiz.routes.js";
+import quizRoutes from "./routes/quiz.routes.js";
 import dotenv from "dotenv";
 
 dotenv.config();
